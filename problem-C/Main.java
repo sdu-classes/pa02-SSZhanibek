@@ -62,7 +62,21 @@ class Studet extends Person{
         this.fee = fee;
     }
     public String toString(){
-        return "Studen[" +
+        return "Studen[" + super.toString() + "program=" + program + ",year=" + year + ",fee" + fee  +"]";
     }
+
+}
+class Staff extends Person{
+    private String school;
+    private double pay;
+
+    public Staff(String name ,String address,String school,double pay){
+        super(name,address,school);
+        this.name = name;
+        this.address = address;
+        this.school = school;
+        this.pay = pay;
+    }
+    public
 
 }
