@@ -3,13 +3,10 @@ public class Main {
         Cat c = new Cat("jsdc");
         System.out.println(c);
         c.greets();
-
-
     }
 }
 class Animal {
     protected String name;
-
     public Animal(String name ){
         this.name = name;
     }
@@ -19,8 +16,6 @@ class Animal {
     }
 }
 class Mammal extends Animal{
-
-
     public Mammal(String name) {
         super(name);
     }
